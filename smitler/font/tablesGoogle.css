@@ -21,7 +21,7 @@ margin: 23px 14px 0 0;
 #blocks{
 	height: 16px;
 	width: 16px;
-	background-image: url(Images/blocks.bmp);
+	background-image: url(../Images/blocks.bmp);
 	float: right;
 	margin: 23px 22px 0 0;
 	outline: 0px solid red;
@@ -29,7 +29,7 @@ margin: 23px 14px 0 0;
 }
 
 #blocks:hover{
-	background-image: url(Images/blocks1.bmp);
+	background-image: url(../Images/blocks1.bmp);
 	cursor: pointer;
 }
 
@@ -37,7 +37,7 @@ margin: 23px 14px 0 0;
 #SignIn{
 	height: 30px;
 	width: 69px;
-	background-image: url(Images/SignIn.bmp);
+	background-image: url(../Images/SignIn.bmp);
 	background-repeat: no-repeat;
 	margin: 16px 30px 0 0;
 	outline: 0px solid green;
@@ -49,7 +49,7 @@ margin: 23px 14px 0 0;
 }
 
 #SignIn:active{
-	background-image: url(Images/SignIn1.bmp);
+	background-image: url(../Images/SignIn1.bmp);
 	cursor: initial;
 }
 
