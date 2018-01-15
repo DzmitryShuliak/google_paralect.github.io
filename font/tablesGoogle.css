@@ -1,0 +1,225 @@
+body {
+	margin: 0;
+}
+
+#wrapper{
+	height: 46px;
+	outline: 0px solid grey;
+}
+
+#top{
+	height: 30px;
+font:13px Arial;
+word-spacing: 11px;
+outline: 0px solid black;
+width: 100px;
+float: right;
+margin: 23px 14px 0 0;
+
+}
+
+#blocks{
+	height: 16px;
+	width: 16px;
+	background-image: url(Images/blocks.bmp);
+	float: right;
+	margin: 23px 22px 0 0;
+	outline: 0px solid red;
+	
+}
+
+#blocks:hover{
+	background-image: url(Images/blocks1.bmp);
+	cursor: pointer;
+}
+
+
+#SignIn{
+	height: 30px;
+	width: 69px;
+	background-image: url(Images/SignIn.bmp);
+	background-repeat: no-repeat;
+	margin: 16px 30px 0 0;
+	outline: 0px solid green;
+	float: right;
+
+}
+#SignIn:hover{
+	cursor: initial;
+}
+
+#SignIn:active{
+	background-image: url(Images/SignIn1.bmp);
+	cursor: initial;
+}
+
+#picture{
+	height: 110px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 152px;
+
+}
+
+#search1{
+	position: absolute;
+	top: 9px;
+	left:398px;
+	height: 44px;
+	width: 584px;
+	border: 1px solid black;
+	border-width: 0px;
+	border-color: #E7E7E7;
+	box-shadow: 0px 1px 10px #C6C6C6;
+}
+
+#searchLine{
+	position: relative;
+	height: 45px;
+	
+}
+
+#divButtons{
+	height: 65px;
+	padding-top: 40px;
+}
+
+.buttons{
+	background-color: #F4F4F4;
+	opacity: 0.6;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	height: 36px;
+	border: 0px;
+	border-radius: 2px;
+
+}
+
+.buttons:hover{
+	background-color: #EEEEEE;
+	opacity: 1;
+	border: 1px solid #C6C6C6;
+}
+#B1{
+	width: 126px;
+}
+#B2{
+	width: 142px;
+}
+
+#languageLinks{
+	outline: 1px solid black;
+	height: 121px;
+	color: #222222;
+	text-align: center;
+	font: 13px Arial;
+	outline: 0px solid green;
+	line-height: 
+}
+
+#languageLinks a{
+	color: #1A0DAB;
+}
+
+#footer1{
+	position: relative;
+	font: 15px Arial;
+	color: #717171;
+	height: 41px;
+	border: 1px solid #E4E4E4;
+	background-color: #F2F2F2;
+	outline: 0px solid red;
+}
+
+#footer2{
+	font: 13px Arial;
+	color: #666666;
+	background-color: #F2F2F2;
+	position: relative;
+
+	height: 40px;
+	outline: 0px solid yellow;
+	margin: 0;
+}
+#Belarus{
+	opacity: ;
+	position: absolute;
+	top: 11px;
+	left: 29px;
+}
+#Advertising{
+	position: absolute;
+	top: 12px;
+	left: 30px;
+}
+#Business{
+	position: absolute;
+	top: 12px;
+	left: 121px;
+}
+#About{
+	position: absolute;
+	top: 12px;
+	left: 201px;
+}
+#Privacy{
+	position: absolute;
+	top: 12px;
+	right: 290px;
+}
+#Terms{
+	position: absolute;
+	top: 12px;
+	right: 228px;
+}
+#Settings{
+	position: absolute;
+	top: 12px;
+	right: 154px;
+}
+
+#Use{
+	position: absolute;
+	top: 12px;
+	right: 30px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link {
+	color: #272727;          
+}
+
+a:visited {
+	color: #272727; 
+}
+
+a:hover {
+	color: #8F8F8F; 
+	text-decoration: underline;
+}
+
+a:active{
+	color: #8F8F8F;
+}
+
+#footer2 a{
+	color: #666666;
+}
+
+#footer2 a:link {
+	color: #666666;
+}
+#footer2 a:visited{
+	color: #666666;
+}
+#footer2 a:hover{
+	color: #666666;
+	text-decoration: underline;
+}
+#footer2 a:active{
+	color: #666666;
+}
